@@ -1,8 +1,10 @@
+**Antoine Hunkeler & Julien Quartier & Yoon Seokchan**
+
+
 # Wireless Networks and Security
 
 ## WEP Security
 
-#### Antoine Hunkeler & Julien Quartier & Yoon Seokchan
 
 __Please work in teams of 3 students__
 
