@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#	!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 """ Manually decrypt a wep message given the WEP key"""
@@ -32,11 +32,15 @@ seed = arp.iv+key
 
 icv_encrypted='{:x}'.format(arp.icv).decode("hex")
 
+print "icv"
+print arp.icv
 print 'icv as shown by Wireshark (encrypted): '+'{:x}'.format(arp.icv)
 
 # Encrypted text including the icv. You need to produce this if you want to decrypt the ICV
 
 message_encrypted=arp.wepdata+icv_encrypted 
+
+print arp.wepdata
 
 # Decryption using rc4
 cleartext=rc4.rc4crypt(message_encrypted,seed)  
