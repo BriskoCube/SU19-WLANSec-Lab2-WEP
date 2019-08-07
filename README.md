@@ -2,6 +2,8 @@
 
 ## WEP Security
 
+#### Antoine Hunkeler & Julien Quartier & Yoon Seokchan
+
 __Please work in teams of 3 students__
 
 __Korean/Swiss hybrid teams are highly encouraged__
